@@ -1,0 +1,14 @@
+.button {
+  display: none;
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .button {
+    display: block;
+  }
+}
